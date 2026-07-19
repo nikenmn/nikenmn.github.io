@@ -5,7 +5,10 @@
         <div class="nav-button lg:hidden" />
         <nuxt-link to="/">
           <div class="branding" :class="{ 'branding-top': scrollPosition < 10 }">
-            <img class="icon" src="@/assets/icons/android-chrome-192x192.png">
+            <img
+    class="icon"
+    :src="require('@/assets/icons/android-chrome-192x192.png')"
+/>
             <span class="text-inherit">Niken Maharani</span>
           </div>
         </nuxt-link>
