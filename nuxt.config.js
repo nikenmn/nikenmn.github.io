@@ -77,7 +77,6 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
     'nuxt-material-design-icons',
-    '@nuxtjs/sitemap'
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -103,10 +102,10 @@ export default {
     middleware: ['routeChange']
   },
 
-  sitemap: {
-    hostname: process.env.APP_URL || 'https://nikenmn.github.io',
-    routes: createSitemapRoutes
-  },
+  // sitemap: {
+  //   hostname: process.env.APP_URL || 'https://nikenmn.github.io',
+  //   routes: createSitemapRoutes
+  // },
 
   server: {
     host: '0.0.0.0'
